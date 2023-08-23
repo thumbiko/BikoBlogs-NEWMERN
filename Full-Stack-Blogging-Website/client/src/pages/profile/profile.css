@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700;800;900&family=Ysabeau+Infant:wght@300;400;500;600;700&display=swap');
+
+.profileWrapper{
+    display: flex;
+}
+
+.profile{
+    flex: 9;
+    padding: 20px;
+    padding: 3%;
+}
+
+.headingProfile{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(22, 97, 126);
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.lineProfile{
+    border-bottom: 1px solid rgb(203, 126, 159);
+    margin-top: 1.2rem;
+    width: 100%;
+}
+
+.userDetailsProfile{
+    /* padding: 1%; */
+    margin-top: 2rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 1.6rem;
+    border-bottom: 1px solid orange;
+    width: 30%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 0.8rem;
+    margin-left: 3rem;
+}
+
+.userDetailTag{
+    font-weight: 500;
+    color: rgb(22, 97, 126);
+}
+
+.buttonContainerProfile{
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.buttonUpdateProfile{
+    border-radius: 10px;
+    background-color: rgba(9, 231, 224, 0.323);
+    font-family: 'Ysabeau Infant', sans-serif;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.buttonUpdateProfile:hover{
+    border: 1px solid orangered;
+}
+
+.postProfileDetails{
+    margin-top: 2rem;
+}
+
+.noPostProfile{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Ysabeau Infant', sans-serif;    
+}

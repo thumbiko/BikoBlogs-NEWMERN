@@ -1,0 +1,34 @@
+.commentWrapper{
+    /* width: 100%; */
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid rgb(238, 235, 235);
+}
+
+.cUname{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.cUdate{
+    font-size: 12px;
+    margin-top: 4px;
+    color: rgb(79, 76, 76);
+    font-weight: 400;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.commentBody{
+    font-size: 16px;
+    margin-top: 6px;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+}
